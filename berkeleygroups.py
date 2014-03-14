@@ -71,7 +71,7 @@ class UnicodeWriter:
 
 def main():
   GREEKS_BASE = 'http://lead.berkeley.edu/greek/recognized_chapters'
-  GROUPS_BASE = 'http://students.berkeley.edu/osl/studentgroups/public/index.asp?todo=listgroups'
+  GROUPS_BASE = 'http://web.archive.org/web/20130618025431/http://students.berkeley.edu/osl/studentgroups/public/index.asp?todo=listgroups'
   GROUPS_BASE_URL = 'http://students.berkeley.edu'
 
   soup = BeautifulSoup(urllib2.urlopen(GROUPS_BASE).read())
